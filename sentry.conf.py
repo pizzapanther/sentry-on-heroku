@@ -54,6 +54,9 @@ SENTRY_OPTIONS['redis.clusters'] = {
     }
 }
 
+SENTRY_DIGESTS = 'sentry.digests.backends.redis.RedisBackend'
+SENTRY_DIGESTS_OPTIONS = {'capacity': 100}
+
 #########
 # Cache #
 #########
