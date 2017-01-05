@@ -150,7 +150,7 @@ SENTRY_WEB_PORT = int(os.environ['PORT'])
 SENTRY_WEB_OPTIONS = {
     'secure_scheme_headers': {'X-FORWARDED-PROTO': 'https'},
     'worker_class': 'gevent',
-    'workers': 3,
+    'workers': 1,
 }
 
 ###############
